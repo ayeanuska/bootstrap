@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.login > form {
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  gap: 2px;
+  border-radius: 5px;
+}
+
+form > input {
+  background-color: antiquewhite;
+  color: black;
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+  margin: 2px;
+}
